@@ -1,0 +1,66 @@
+/* styles.css */
+/* styles.css */
+.custom-title {
+    color: #D73F09; /* Set the text color to the hex color */
+    display: inline-block; /* Ensure the title and SVG appear in the same line */
+    margin-left: 10px; /* Adjust the margin as needed for spacing between SVG and title */
+}
+
+/* Additional styles for the SVG (adjust as needed) */
+#logo {
+    display: inline-block;
+    vertical-align: middle; /* Align the SVG vertically with the text */
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+#map-Container {
+    height: 50vh; /* Adjust the height based on your preference */
+    overflow: hidden; /* Hide overflow to prevent scrolling */
+}
+
+#chartcontainer{
+    width: 100%;
+    height: 45vh; /* Adjust the height based on your preference */
+     /* Hide verflow to prevent scrolling */
+}
+
+#college_football_map {
+    height: 55vh;
+    width: 100%;
+}
+
+.info.legend {
+    background-color: gray;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.yup.legend{
+    background-color: gray;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;}
+/* Add these styles to your CSS */
+.legend-circle {
+     
+    border: 1px solid white; /* Set the symbol outline to white */
+    display: inline-block;
+    color: white; /* Set the text color to white */
+    padding: 5px; /* Add padding for better spacing */
+    border-radius: 50%; 
+} 
+
+/* If needed, you can adjust the size and other properties */
+ .legend-circle i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+} 
